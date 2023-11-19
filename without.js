@@ -13,10 +13,10 @@ const assertArraysEqual = function(array1, array2) {
   return true;
 };
 
-function without(source, itemsToRemove) {
+const without = function(source, itemsToRemove) {
   // Use filter to create a new array with only elements not present in itemsToRemove
   return source.filter(item => !itemsToRemove.includes(item));
-}
+};
 
 // Example usage:
 console.log(without([1, 2, 3], [1])); // Output: [2, 3]
