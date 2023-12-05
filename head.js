@@ -1,10 +1,4 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed:${actual} === ${expected}`);
-  } else {
-    console.log(`❌❌❌ Assertion Failed:${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 const head = function(array) {
   if (array.length >= 0) {
@@ -13,5 +7,5 @@ const head = function(array) {
     console.log(undefined);
   }
 };
-assertEqual(head([]));
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = head;
+// tests moved under test directory
