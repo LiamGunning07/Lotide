@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@liamgunning/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of Lodash, made for learning purposes as a student of Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/LiamGunning07/Lotide.git"
   },
-  "author": "",
+  "author": "liamgunning",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LiamGunning07/Lotide/issues"
