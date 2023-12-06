@@ -1,4 +1,5 @@
 const assertEqual = require('./assertEqual');
+
 const findKeyByValue = function(object, value) {
   for (const key in object) {
     // Check if the current key's value is equal to the given value
@@ -18,4 +19,4 @@ const bestTVShowsByGenre = {
 };
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-moodule.exports = findKeyByValue;
+module.exports = findKeyByValue;

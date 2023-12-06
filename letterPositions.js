@@ -19,4 +19,4 @@ const letterPosition = function(sentence) {
 console.log(letterPosition('hello'));
 assertArraysEqual(letterPosition("hello").e, [1]);
 
-moodule.exports = letterPosition;
+module.exports = letterPosition;

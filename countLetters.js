@@ -21,4 +21,4 @@ const countLetters = function(string) {
 };
 console.log(countLetters('Lighthouse in the house'));
 
-moodule.export = countLetters;
+module.exports = countLetters;

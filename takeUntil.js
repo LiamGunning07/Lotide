@@ -18,4 +18,4 @@ console.log(results);
 assertArraysEqual([ 1, 2, 3, 4, 5, 6 ],results);
 assertArraysEqual([ 1, 2, 3, 4, 5 ],results);
 
-moodule.exports = takeUntil; 
+module.exports = takeUntil; 
