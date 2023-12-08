@@ -2,7 +2,7 @@
   "name": "@liamgunning/lotide",
   "version": "1.0.0",
   "description": "A mini clone of Lodash, made for learning purposes as a student of Lighthouse Labs",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
