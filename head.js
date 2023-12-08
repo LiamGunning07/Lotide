@@ -7,5 +7,6 @@ const head = function(array) {
     console.log(undefined);
   }
 };
+
 module.exports = head;
 // tests moved under test directory
